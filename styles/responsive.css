@@ -1,0 +1,36 @@
+  .container{
+            display: flex;
+            gap: 20px;
+        }
+        .box{
+            background-color: lightskyblue;
+            padding: 20px;
+            border-radius: 10px;
+        }
+.container-2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.item{
+    width: 200px;
+    height: 100px;
+    background-color: lightcoral;
+    background-color: bisque;
+    border: 2px solid darkslategray;
+}
+
+
+
+
+
+
+
+
+
+        @media screen and (max-width: 576px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+        }

@@ -1,0 +1,25 @@
+.header, .main, .nav , .advertise, .footer, .sidebar{
+    background-color: burlywood;
+    border: 2px solid tomato;
+    padding: 20px;
+}
+.header{
+    grid-area: header;
+}
+.nav{
+    grid-area: nav;
+
+}
+.main{
+    grid-area: main;
+}
+.advertise{
+    grid-area: advertise;
+}
+.sidebar{
+ grid-area: sidebar;
+
+}
+.footer{
+    grid-area: footer;
+}
