@@ -23,3 +23,12 @@
 .footer{
     grid-area: footer;
 }
+.container{
+    display: grid;
+    grid-template-areas: 
+    "header header header header"
+    "nav    main   main   sidebar"
+    "nav    main   main   advertise"
+    "footer footer footer footer"
+    ;
+}
